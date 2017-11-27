@@ -1,0 +1,515 @@
+[ 2017-11-27T21:56:08+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014032s ]
+
+[ 2017-11-27T21:56:11+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T21:56:57+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T21:59:11+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-11-27T22:00:04+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:00:17+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:01:07+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:04:20+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:05:49+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+
+[ 2017-11-27T22:06:25+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+
+[ 2017-11-27T22:08:56+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+
+[ 2017-11-27T22:09:31+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:11:41+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:15:27+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+
+[ 2017-11-27T22:15:51+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\shaizi.htewl.com\#DFrame\Library\Think\Db\Driver.class.php 第 204 行.
+
+[ 2017-11-27T22:16:26+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-11-27T22:20:21+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-11-27T22:24:44+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+
+[ 2017-11-27T22:25:41+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'beizhuv04.dd_config' doesn't exist
+
+[ 2017-11-27T22:26:12+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shaizi'
+
+[ 2017-11-27T22:27:17+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003449s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020553s ]
+
+[ 2017-11-27T22:28:25+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0009s ]
+
+[ 2017-11-27T22:28:25+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\shaizi.htewl.com\Application\Admin\Controller\AdminController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2017-11-27T22:28:29+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002692s ]
+
+[ 2017-11-27T22:28:34+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=charge&id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: money D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 26 行.
+NOTIC: [8] Undefined index: remark D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2017-11-27T22:28:37+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002293s ]
+
+[ 2017-11-27T22:28:40+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined index: kaijaing D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002846s ]
+
+[ 2017-11-27T22:28:44+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_buylog` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_buylog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004485s ]
+
+[ 2017-11-27T22:28:50+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: user_id D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 17 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2017-11-27T22:28:53+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Finance&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: user_id D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\54244296d28806171df8c93a025777b7.php 第 17 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\54244296d28806171df8c93a025777b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002598s ]
+
+[ 2017-11-27T22:28:55+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002927s ]
+
+[ 2017-11-27T22:28:56+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\shaizi.htewl.com\Application\Admin\Controller\ProductController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_plant` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_plant` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002462s ]
+
+[ 2017-11-27T22:28:59+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=plant_edit&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `dd_plant` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\shaizi.htewl.com\Application\Runtime\Cache\Admin\fcdabbd78e751e5647beef4e5567ef6a.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2017-11-27T22:28:59+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=upload&event=setPic&url=.%2FPublic%2Fupload%2Fimages%2F1701%2F29%2F201231501075002717.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+

@@ -1,0 +1,2269 @@
+[ 2017-04-21T00:01:36+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0072s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492704096  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0101s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','666','f2fpay','1492704096','0') [ RunTime:0.0003s ]
+
+[ 2017-04-21T00:02:25+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492704145  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0079s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','666','f2fpay','1492704145','0') [ RunTime:0.0003s ]
+
+[ 2017-04-21T09:48:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018662s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0089s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492739332  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+
+[ 2017-04-21T09:48:55+08:00 ] 127.0.0.1 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0059s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492739333  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 230 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 233 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 236 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 239 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.244365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016443s ]
+
+[ 2017-04-21T10:39:46+08:00 ] 127.0.0.1 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0081s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742386  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_user` WHERE `login_name` = '18359602838' AND `login_pass` = '654bc10131701271a2aca83370f8e3e6' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-04-21T10:39:48+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0075s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742387  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492742384  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: kid16 D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='6' WHERE `id` = 239 [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 239 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1492742388','1492742448','1') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 240 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003004s ]
+
+[ 2017-04-21T10:39:48+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007891s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0046s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742388  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492742384  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 240 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003102s ]
+
+[ 2017-04-21T10:39:49+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0091s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742389  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: fanli D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 323 行.
+NOTIC: [8] Undefined index: pickup D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 347 行.
+NOTIC: [8] Undefined index: reward_lazy D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 359 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 686 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 689 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 692 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 695 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 701 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002936s ]
+
+[ 2017-04-21T10:39:52+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742392  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 249 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002302s ]
+
+[ 2017-04-21T10:39:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0081s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742394  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492742390  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 240 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2017-04-21T10:39:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0058s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742394  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492742390  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 240 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003063s ]
+
+[ 2017-04-21T10:39:59+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=cai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0074s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742398  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+
+[ 2017-04-21T10:40:03+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0082s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742403  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: fanli D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 323 行.
+NOTIC: [8] Undefined index: pickup D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 347 行.
+NOTIC: [8] Undefined index: reward_lazy D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 359 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 686 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 689 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 692 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 695 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 701 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003051s ]
+
+[ 2017-04-21T10:40:06+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742406  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 249 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2017-04-21T10:43:58+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0088s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742637  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 253 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003723s ]
+
+[ 2017-04-21T10:47:00+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0115s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742820  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 253 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2017-04-21T10:47:07+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742827  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 253 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2017-04-21T10:47:54+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0081s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742873  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 255 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2017-04-21T10:49:26+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742965  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 255 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2017-04-21T10:49:27+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492742967  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 255 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2017-04-21T10:52:55+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0107s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492743175  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003909s ]
+
+[ 2017-04-21T11:14:05+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0088s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744445  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2017-04-21T11:17:06+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0088s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744626  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2017-04-21T11:18:26+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744706  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002293s ]
+
+[ 2017-04-21T11:20:12+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0099s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744812  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003309s ]
+
+[ 2017-04-21T11:21:19+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744879  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2017-04-21T11:21:50+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744910  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2017-04-21T11:22:06+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492744926  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2017-04-21T11:24:07+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0078s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492745047  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004630s ]
+
+[ 2017-04-21T11:24:10+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492745050  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 984 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0076s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','0','f2fpay','1492745050','0') [ RunTime:0.0009s ]
+
+[ 2017-04-21T11:24:15+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492745055  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2017-04-21T11:24:21+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492745061  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2017-04-21T11:24:24+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0081s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492745064  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 984 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0082s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','0','f2fpay','1492745064','0') [ RunTime:0.0003s ]
+
+[ 2017-04-21T11:52:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017358s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0078s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492746758  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492746755  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: kid16 D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='6' WHERE `id` = 240 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 240 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1492746759','1492746819','1') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 241 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.224060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011786s ]
+
+[ 2017-04-21T11:52:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492746759  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492746755  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 241 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003168s ]
+
+[ 2017-04-21T11:52:42+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0079s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492746762  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: fanli D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 323 行.
+NOTIC: [8] Undefined index: pickup D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 347 行.
+NOTIC: [8] Undefined index: reward_lazy D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 359 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 686 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 689 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 692 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 695 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 701 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2017-04-21T11:52:44+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0076s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492746764  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-04-21T11:52:47+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0156s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492746767  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 984 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0077s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','0','f2fpay','1492746767','0') [ RunTime:0.0004s ]
+
+[ 2017-04-21T11:59:24+08:00 ] 127.0.0.1 /f2fpay_notify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2017-04-21T11:59:31+08:00 ] 127.0.0.1 /f2fpay_notify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2017-04-21T12:03:57+08:00 ] 127.0.0.1 /f2fpay_notify.php?ddh=1234564646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: key D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 371 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 372 行.
+NOTIC: [8] Undefined index: lb D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 373 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 374 行.
+NOTIC: [8] Undefined index: paytime D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 375 行.
+
+[ 2017-04-21T12:04:06+08:00 ] 127.0.0.1 /f2fpay_notify.php?ddh=1234564646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+
+[ 2017-04-21T12:16:44+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0082s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748204  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2017-04-21T12:16:46+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0078s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748206  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 258 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002274s ]
+
+[ 2017-04-21T12:16:56+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0077s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748216  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0077s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','10','f2fpay','1492748216','0') [ RunTime:0.0005s ]
+
+[ 2017-04-21T12:17:56+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0088s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748276  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003366s ]
+
+[ 2017-04-21T12:17:57+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0086s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748277  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2017-04-21T12:18:01+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0078s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492748281  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0083s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`status`) VALUES ('61','20','f2fpay','1492748281','0') [ RunTime:0.0003s ]
+
+[ 2017-04-21T13:53:35+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0074s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754014  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2017-04-21T14:02:13+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004246s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0099s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754533  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004201s ]
+
+[ 2017-04-21T14:02:20+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0076s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754540  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0077s ]
+SQL: INSERT INTO `dd_charge` (`user_id`,`money`,`payway`,`create_time`,`orderid`,`status`) VALUES ('61','20','f2fpay','1492754540','6661492754540','0') [ RunTime:0.0005s ]
+
+[ 2017-04-21T14:05:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0094s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754755  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492754751  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: kid16 D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='6' WHERE `id` = 241 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 241 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1492754755','1492754815','1') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 242 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003039s ]
+
+[ 2017-04-21T14:05:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0130s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754755  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492754752  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 242 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002707s ]
+
+[ 2017-04-21T14:06:58+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=kai&id=242
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0070s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492754818  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492754814  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 AND `id` = 242 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2017-04-21T14:07:29+08:00 ] 127.0.0.1 /f2fpay_notify.php?ddh=1234564646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 370 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 371 行.
+NOTIC: [8] Undefined index: lb D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 372 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 373 行.
+NOTIC: [8] Undefined index: paytime D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 374 行.
+
+[ 2017-04-21T14:11:14+08:00 ] 127.0.0.1 /f2fpay_notify.php?ddh=1234564646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002774s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 370 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 371 行.
+NOTIC: [8] Undefined index: lb D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 372 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 373 行.
+NOTIC: [8] Undefined index: paytime D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2017-04-21T14:12:47+08:00 ] 127.0.0.1 /f2fpay_notify.php?ddh=1234564646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: key D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 370 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 371 行.
+NOTIC: [8] Undefined index: lb D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 372 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 373 行.
+NOTIC: [8] Undefined index: paytime D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002547s ]
+
+[ 2017-04-21T14:15:02+08:00 ] 127.0.0.1 /f2fpay_notify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_charge` WHERE ( orderid ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordernum' in 'where clause'
+
+[ 2017-04-21T14:15:31+08:00 ] 127.0.0.1 /f2fpay_notify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `dd_charge` WHERE ( orderid ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `dd_charge` SET `money`='20',`status`='1',`pay_time`='1492755331',`paid`='20' WHERE ( orderid ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0093s ]
+SQL: UPDATE `dd_user` SET `money`=money+20 WHERE ( id=61 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2017-04-21T14:15:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0083s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755337  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755333  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: kid16 D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='5' WHERE `id` = 242 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 242 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1492755337','1492755397','1') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002977s ]
+
+[ 2017-04-21T14:15:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0068s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755337  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755334  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2017-04-21T14:15:47+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0072s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755347  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: fanli D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 323 行.
+NOTIC: [8] Undefined index: pickup D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 347 行.
+NOTIC: [8] Undefined index: reward_lazy D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 359 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 686 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 689 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 692 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 695 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 701 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002655s ]
+
+[ 2017-04-21T14:15:55+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0074s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755355  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: list D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 259 行.
+NOTIC: [8] Undefined variable: page D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2e5be7af4da7b9cea3886610377ed7ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2017-04-21T14:15:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0072s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755357  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755353  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2017-04-21T14:15:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0044s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755357  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755353  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002838s ]
+
+[ 2017-04-21T14:16:33+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=cai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0075s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755393  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0070s ]
+SQL: INSERT INTO `dd_buylog` (`uid`,`money`,`buyid`,`type`,`kid`,`starttime`,`status`,`endtime`) VALUES ('61','10','1','2','243','1492755393','1','1492755397') [ RunTime:0.0010s ]
+SQL: UPDATE `dd_kailog` SET `kid1`='1',`xiao`='10',`allmoney`='10' WHERE `id` = 243 [ RunTime:0.0003s ]
+SQL: UPDATE `dd_user` SET `money`='10' WHERE `id` = 61 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 461 行.
+NOTIC: [8] Undefined variable: type D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 461 行.
+
+[ 2017-04-21T14:16:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0077s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755396  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755392  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002949s ]
+
+[ 2017-04-21T14:16:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0044s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755396  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755392  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 243 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2017-04-21T14:16:39+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=kai&id=243
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0080s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492755399  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492755395  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 AND `id` = 243 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2017-04-21T14:28:58+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003209s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0075s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492756138  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2017-04-21T14:40:14+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003933s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0099s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492756814  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2017-04-21T14:41:24+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004280s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0072s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492756884  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [8] Undefined index: tgurl D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Common\function.php 第 1536 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2017-04-21T14:41:26+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0082s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492756886  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005166s ]
+
+[ 2017-04-21T18:07:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002782s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0075s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492769275  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492769272  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: kid16 D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\IndexController.class.php 第 94 行.
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='6' WHERE `id` = 243 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 243 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `id` = 74 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dd_buylog` SET `status`='2',`isid`='6' WHERE `id` = 74 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1492769276','1492769336','1') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 244 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002848s ]
+
+[ 2017-04-21T18:07:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0086s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492769276  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_plant`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1492769273  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 61 AND `kid` = 244 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 425 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 428 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 431 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 434 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003357s ]
+
+[ 2017-04-21T18:07:58+08:00 ] 127.0.0.1 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0078s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1492769278  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\HomeController.class.php on line 185 and defined D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: fanli D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 323 行.
+NOTIC: [8] Undefined index: pickup D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 347 行.
+NOTIC: [8] Undefined index: reward_lazy D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 359 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 686 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 689 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 692 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 695 行.
+NOTIC: [8] Undefined variable: param D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 701 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2017-04-21T18:08:31+08:00 ] 127.0.0.1 /index.php?m=&c=Notify&a=f2fpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: ddh D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 369 行.
+NOTIC: [8] Undefined index: key D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 370 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 371 行.
+NOTIC: [8] Undefined index: lb D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 372 行.
+NOTIC: [8] Undefined index: money D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 373 行.
+NOTIC: [8] Undefined index: paytime D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Home\Controller\NotifyController.class.php 第 374 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003406s ]
+

@@ -1,0 +1,9 @@
+导入数据库 demo_367.sql
+修改数据库：Application\Common\Conf\db.php
+
+后台网址：/yuan.php?m=Admin&c=Config&a=user
+
+账号 admin  密码 sucaihuo
+
+前台测试账号 18005151538  sucaihuo
+

@@ -1,0 +1,199 @@
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="/res/touzi/base.css">
+    <link rel="stylesheet" href="/res/touzi/weui.css">
+    <link rel="stylesheet" href="/res/touzi/layer.css">
+
+    <style>
+        .user-img-2{width: 50px;display: block; border-radius: 10px;box-shadow: 0 0 5px #000;
+            -webkit-transform: scale(.5);
+            -ms-transform: scale(.5);
+            transform: scale(.5);
+            -webkit-animation: avatar .3s forwards;
+            animation: avatar .3s forwards;}
+        .user-img{
+            width: 100px;
+            height: 100px;
+            display: block;
+            border-radius: 50%;
+            margin: 0px auto;
+
+            background-color: #fff;
+            box-shadow: 0 0 10px #000;
+            -webkit-transform: scale(.5);
+            -ms-transform: scale(.5);
+            transform: scale(.5);
+            -webkit-animation: avatar .3s forwards;
+            animation: avatar .3s forwards;
+        }
+        .user-title{
+            font-weight: 400;
+            font-size: 17px;
+            width: auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            word-wrap: normal;
+            word-wrap: break-word;
+            word-break: break-all;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.82);
+            padding-top: 5px;
+        }
+        .user-desc{
+            color: #999999;
+            font-size: 13px;
+            line-height: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.82);
+        }
+        .PcIconWidth{ width: 30px;}
+        /* fade in and expand image to full size, with a slight bounce */
+        @-webkit-keyframes avatar {
+            70% {
+                opacity: 1;
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+        @keyframes avatar {
+            70% {
+                opacity: 1;
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+        .PcIconWidth{ width: 25px; height: 25px;}
+        /*提现按钮*/
+        .tiXian{
+            box-shadow: 0 0 5px 0 rgba(0,0,0,.24); background-color: #775cc1; border:0; color: #fff;
+        }
+
+    </style>
+    <!--[if IE]>
+    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body style="background-color:#F3F3F3;">
+
+
+<section style="background-image: radial-gradient(circle at 60% 48%, #3D3459, #10112F); padding: 15px 0; position: relative;">
+    <figure style="padding-top: 20px;"><img src="{$user.headimg|headsize=96}" class="user-img"></figure>
+    <p class="user-title">{$user.nickname}</p>
+    <p class="user-desc">我的ID：{$user.id}</p>
+
+</section>
+
+
+<section style="background-color: #fff; margin-bottom: 40px;">
+
+    <div class="weui-cells" style="margin:3px 0;box-shadow: 0 0 5px rgba(0,0,0,.12); border: 0;">
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/team-library.png" style="width: 25px; margin-right: 5px; display: block;"></div>
+            <div class="weui-cell__bd">
+                <p>我的余额 ：<span style=" color: red;font-weight: 700; font-size: 15px;">{$user.money}</span></p>
+            </div>
+            <div class="weui-cell__ft"> <a href="javascript:;" id="a-recharge" class="tiXian weui-btn weui-btn_mini weui-btn_plain-primary">余额提现</a></div>
+        </div>
+    </div>
+    <div class="weui-cells" style="margin:0;">
+       <a class="weui-cell weui-cell_access" href="/index.php?m=&c=Index&a=playlog">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/purchase-history.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">骰子投注记录</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+        <!-- <a class="weui-cell weui-cell_access" href="/Ssc/buyList.html">
+            <div class="weui-cell__bd">
+                <img src="/Public/Home/images/person-center/my-bet-2.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">时时彩投注记录</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a> -->
+        <a class="weui-cell weui-cell_access" href="">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/myHb.png" style="width: 25px;">
+                <span style="vertical-align: middle; font-size: 14px;">我的红包</span>
+                            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+       <!--  <a class="weui-cell weui-cell_access" href="/index.php?m=&c=Index&a=ucenter">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/myTeam.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">我的团队</span>
+                <span class="weui-badge" style="margin-left: 5px;">0</span> 
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a> -->
+       <a class="weui-cell weui-cell_access" href="/index.php?m=&c=Index&a=withdraw">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/conversion-record.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">提现记录</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+
+        <a class="weui-cell weui-cell_access" href="/index.php?m=&c=Index&a=lishi">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/zjmx.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">开奖记录</span>
+            </div>
+            <p class="weui-cell__ft"></p>
+        </a>
+
+   <!--      <a class="weui-cell weui-cell_access" href="http://hb.gntmg.com/User/kefu.html">
+            <div class="weui-cell__bd">
+                <img src="http://hb.gntmg.com/Public/Home/images/person-center/icon-red/online-service.png" class="PcIconWidth">
+                <span style="vertical-align: middle; font-size: 14px;">联系客服</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a> -->
+
+    </div>
+
+</section>
+
+
+
+<!-- 底部导航 -->
+<!--<footer id="bar-dice-bottom">
+    <ul class="Grid dice-box -middle -center" style="flex-wrap:nowrap; -webkit-flex-wrap: nowrap;">
+		<li class="Cell"><a href="/HongBao/index.html" role="tab"><i class="hb-icond"></i>抢红包</a></li>
+        <li class="Cell"><a href="/Index/index.html" role="tab"><i class="dice-icon-1"></i>骰子游戏</a></li>
+        <li class="Cell"><a href="/User/myqrCode.html" role="tab"><i class="myShare-icon-1"></i>我要分享</a></li>
+        <li class="Cell current"><a href="/User/index.html" role="tab"><i class="personCenter-icon-2"></i>个人中心</a></li>
+    </ul>
+</footer>-->
+<nav>
+    <include file="include/footer" />
+</nav>
+
+
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,683 @@
+[ 2017-04-19T16:20:15+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+
+[ 2017-04-19T16:57:49+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003787s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004397s ]
+
+[ 2017-04-19T17:09:21+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015202s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002336s ]
+
+[ 2017-04-19T17:09:37+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2017-04-19T17:30:35+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002390s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 181 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 183 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 185 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 187 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 189 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php:21) D:\UPUPW_NP5.5\vhosts\touzi.com\#DFrame\Library\Think\View.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2017-04-19T17:37:26+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003632s ]
+
+[ 2017-04-19T17:37:32+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2017-04-19T17:37:36+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+
+[ 2017-04-19T17:37:36+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002987s ]
+
+[ 2017-04-19T17:37:42+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003162s ]
+
+[ 2017-04-19T17:39:27+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002905s ]
+
+[ 2017-04-19T17:39:40+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003070s ]
+
+[ 2017-04-19T17:39:55+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003383s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005921s ]
+
+[ 2017-04-19T17:40:18+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2017-04-19T17:40:41+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002780s ]
+
+[ 2017-04-19T17:40:51+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004282s ]
+
+[ 2017-04-19T17:41:57+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002879s ]
+
+[ 2017-04-19T17:42:02+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002926s ]
+
+[ 2017-04-19T17:42:38+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002721s ]
+
+[ 2017-04-19T17:43:28+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: info D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2017-04-19T17:44:00+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: kaijaing D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2017-04-19T17:45:15+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: UPDATE `dd_config` SET `value`='a:14:{s:4:\"name\";s:9:\"猜猜乐\";s:7:\"code_is\";s:1:\"1\";s:8:\"kaijiang\";s:1:\"2\";s:6:\"tixian\";s:1:\"1\";s:7:\"is_site\";s:1:\"1\";s:3:\"url\";s:19:\"http://hb.gntmg.com\";s:9:\"subscribe\";s:24:\"欢迎您关注猜猜乐\";s:10:\"land_price\";s:2:\"20\";s:7:\"expense\";s:6:\"8;3;2;\";s:3:\"tou\";s:1:\"2\";s:4:\"chou\";s:1:\"2\";s:11:\"chou_reward\";s:2:\"65\";s:12:\"chou_expense\";s:2:\"20\";s:9:\"chou_body\";s:184:\"<p>两元抽抽乐，支付2元、或2积分、余额、进行抽奖！每天晚上8点开奖一次！中奖者拿奖池65％奖金！20％推荐人，10％公司网站维护费！</p>\";}' WHERE `name` = 'site' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+
+[ 2017-04-19T17:45:16+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: kaijaing D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002937s ]
+
+[ 2017-04-19T17:45:21+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002818s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: mobile D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: name D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+NOTIC: [8] Undefined index: id D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2017-04-19T17:45:28+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=plant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Admin\Controller\ProductController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `dd_plant` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_plant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_plant` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005724s ]
+
+[ 2017-04-19T17:45:54+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003093s ]
+
+[ 2017-04-19T17:45:58+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: user_id D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 17 行.
+NOTIC: [8] Undefined index: status D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2017-04-19T17:46:02+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Finance&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: user_id D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\54244296d28806171df8c93a025777b7.php 第 17 行.
+NOTIC: [8] Undefined index: level D:\UPUPW_NP5.5\vhosts\touzi.com\Application\Runtime\Cache\Admin\54244296d28806171df8c93a025777b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003025s ]
+
+[ 2017-04-19T17:46:03+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Autoreply&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_autoreply` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_autoreply` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_autoreply` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002770s ]
+
+[ 2017-04-19T17:46:04+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Selfmenu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_selfmenu` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_selfmenu` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_selfmenu` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002869s ]
+
