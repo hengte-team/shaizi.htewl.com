@@ -112,7 +112,7 @@ class ddwechat{
 	*/
 
 
-	public function setParam($name, $value){
+	public function setParam($name, $value = ''){
 
 
 		if(is_array( $name)){
