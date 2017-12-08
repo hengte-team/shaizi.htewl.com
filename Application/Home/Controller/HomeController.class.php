@@ -31,7 +31,7 @@ class HomeController extends Controller
               $user_info = wxuser(session('openid'));
               session('wechat_info',$user_info);
             }
-		} elseif (!$this -> openid && CONTROLLER_NAME != 'Api' && IS_WECHAT) {// 没登录，没有获取openid且在微信中，则获取openid
+		} elseif (!$this -> openid && CONTROLLER_NAME != 'Api' && IS_WECHAT && 0) {// 没登录，没有获取openid且在微信中，则获取openid
 			// 网页认证授权
 			if (!isset($_GET['code'])) {
 				$custome_url = get_current_url();
